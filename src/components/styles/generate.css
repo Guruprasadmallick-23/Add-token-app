@@ -1,0 +1,72 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  padding: 2rem 0;
+  width: 50%;
+  margin-top: 2rem;
+}
+
+.form h3 {
+  text-align: center;
+}
+
+.token-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: 2rem;
+}
+
+.form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* *************css for the token area************* */
+
+.token-areaMain {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  min-width: 645px;
+  min-height: 100px;
+  margin: 2rem 0;
+}
+
+.blue-token,
+.red-token {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  /* gap: 1rem; */
+}
+
+.blue-box {
+  box-sizing: border-box;
+  border: 3px solid white;
+  /* width: 30px;
+  height: 30px; */
+  background-color: blue;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.red-box {
+  box-sizing: border-box;
+  border: 3px solid white;
+  background-color: red;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
